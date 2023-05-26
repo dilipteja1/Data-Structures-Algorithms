@@ -18,7 +18,7 @@ int main()
 
     int n;
     cin >> n;
-    int arr[n];
+    int arr[n] = {0};
     for (int i = 0; i < n; i++)
     {
         cin >> arr[i];
@@ -34,8 +34,12 @@ int main()
 
     //using a map
     unordered_map<int,int>mpp;
-    for(int i=0;i<n;i++){
-        mpp[arr[i]]++;
+    // for(int i=0;i<n;i++){
+    //     mpp[arr[i]]++;
+    // }
+    string s = "Silip";
+    for(auto i:s){
+        cout<<i<<endl;
     }
 
     //iterate in a map 

@@ -1,10 +1,15 @@
-#include <bits\stdc++.h>
+#include <bits/stdc++.h>
 using namespace std;
 typedef long long int ll;
 #define loopi(x, n) for (long long i = x; i < n; ++i)
 #define loopj(x, n) for (long long j = x; j < n; ++j)
 #define loopk(x, n) for (long long k = x; k < n; ++k)
 #define rloop(x, n) for (long long r = x; r >= n; --r)
+
+void testcase()
+{
+    
+}
 
 int main()
 {
@@ -16,4 +21,13 @@ int main()
     freopen("../output.txt", "w", stdout);
 #endif
 
+    ll TC = 1;
+    cin >> TC;
+    loopi(0, TC)
+    {
+        testcase();
+    }
+    return 0;
 }
+
+
