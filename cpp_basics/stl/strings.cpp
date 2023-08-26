@@ -3,6 +3,13 @@ using namespace std;
 
 int main()
 {
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
+
+#ifndef ONLINE_JUDGE
+    freopen("../input.txt", "r", stdin);
+    freopen("../output.txt", "w", stdout);
+#endif
     string s1;
     string s2(5,'D');
     //gets the string until space eg. dilip is a good boy . It only stores dilip
@@ -45,7 +52,7 @@ int main()
 
     //insert
     string s8 = "Manam";
-    s8.insert(2,"Ramu");
+    s8.insert(5,"Ramu");
     cout<<s8<<endl;
 
     //substring 
@@ -66,6 +73,9 @@ int main()
     string s12 = "ssfkshf";
     sort(s12.begin(),s12.end());
     cout<<s12<<endl;
+
+   
+
 
 
 }
